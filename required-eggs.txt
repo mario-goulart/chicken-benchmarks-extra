@@ -3,3 +3,4 @@ manual-labor:0.2
 salmonella-html-report:1.7.0
 server-test:0.6
 base64:1.0
+medea:4
