@@ -1,0 +1,2 @@
+manual-labor:0.2
+salmonella-html-report:1.7.0
