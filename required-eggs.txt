@@ -1,5 +1,6 @@
 awful:1.0.2
 base64:1.0
+jsmin:2.2
 manual-labor:0.2
 medea:4
 salmonella-diff:1.1.0
