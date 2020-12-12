@@ -10,4 +10,4 @@
  (system*
   (sprintf
    "~a --out-dir=dumpster/salmonella-diff data/salmonella/salmonella-1.log data/salmonella/salmonella-2.log"
-   (maybe-prefix "salmonella-diff"))))
+   (prefix "salmonella-diff"))))

@@ -10,4 +10,4 @@
  (system*
   (sprintf
    "~a --disable-graphs data/salmonella/salmonella-1.log dumpster/salmonella-report"
-   (maybe-prefix "salmonella-html-report"))))
+   (prefix "salmonella-html-report"))))

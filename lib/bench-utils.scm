@@ -11,7 +11,7 @@
        (print (/ (- (current-milliseconds) start-time) 1000.0)
               "s CPU time, 0/0 mutations (total/tracked), maximum live heap: 0 KiB")))))
 
-(define (maybe-prefix program)
+(define (prefix program)
   (let ((installation-prefix
          (pathname-directory (pathname-directory (chicken-home)))))
     (make-pathname (and installation-prefix
