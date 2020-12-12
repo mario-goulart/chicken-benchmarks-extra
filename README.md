@@ -21,7 +21,7 @@ CHICKEN eggs and contains huge data files.
 1. Install eggs
 
 ```
-$ chicken-install $cat REQUIRED-EGGS.TXT)
+$ chicken-install $(cat REQUIRED-EGGS.TXT)
 ```
 
 Note that versions of eggs are pinned, as those are the versions known
