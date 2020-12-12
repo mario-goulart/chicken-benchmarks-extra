@@ -1,5 +1,6 @@
 (import (chicken pathname)
         (chicken platform)
+        (chicken process-context)
         (chicken time))
 
 (define-syntax fake-time
@@ -16,3 +17,8 @@
     (make-pathname (and installation-prefix
                         (list installation-prefix "bin"))
                    program)))
+
+(define network-port
+  (or (and-let* ((port (get-environment-variable "CHICKEN_BENCHMARKS_PORT")))
+        (string->number port))
+      8080))
