@@ -7,18 +7,19 @@
     (lambda (port)
       (base64-encode port))))
 
-(let ((files (cons "data/salmonella/salmonella.log"
-                   (append
-                    (list "data/chicken-core/runtime.c"
-                          "data/chicken-core/chicken-do.c"
-                          "data/chicken-core/dbg-stub.c")
-                    (glob "data/chicken-core/Makefile*")
-                    (glob "data/chicken-core/*.h")
-                    (glob "data/chicken-core/*.mdoc")
-                    (glob "data/chicken-core/*.scm")
-                    (glob "data/chicken-core/tests/*.scm")
-                    (glob "data/chicken-core/scripts/*")
-                    ))))
+(let ((files
+       (append
+        (glob "data/salmonella/salmonella-*.log")
+        (list "data/chicken-core/runtime.c"
+              "data/chicken-core/chicken-do.c"
+              "data/chicken-core/dbg-stub.c")
+        (glob "data/chicken-core/Makefile*")
+        (glob "data/chicken-core/*.h")
+        (glob "data/chicken-core/*.mdoc")
+        (glob "data/chicken-core/*.scm")
+        (glob "data/chicken-core/tests/*.scm")
+        (glob "data/chicken-core/scripts/*")
+        )))
   (time (map (lambda (file)
                (call-with-input-file file
                  (lambda (port)

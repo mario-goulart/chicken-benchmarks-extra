@@ -9,5 +9,5 @@
 (fake-time
  (system*
   (sprintf
-   "~a --disable-graphs data/salmonella/salmonella.log dumpster/salmonella-report"
+   "~a --disable-graphs data/salmonella/salmonella-1.log dumpster/salmonella-report"
    (maybe-prefix "salmonella-html-report"))))
