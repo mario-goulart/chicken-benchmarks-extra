@@ -1,2 +1,4 @@
-GNU make
 ab (apache2-utils on Debian)
+cp
+make (GNU make)
+rm
