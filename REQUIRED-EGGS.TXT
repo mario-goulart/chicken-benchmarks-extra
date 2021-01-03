@@ -1,9 +1,39 @@
-awful:1.0.2
-base64:1.0
-jsmin:2.2
-manual-labor:0.2
-medea:4
-salmonella-diff:1.1.0
-salmonella-html-report:1.7.0
-server-test:0.6
-ssax:5.1.0
+(ssax "5.1.0")
+(srfi-13 "0.3")
+(http-session "2.10")
+(srfi-14 "0.2.1")
+(uri-generic "3.2")
+(trie "2")
+(memory-mapped-files "0.4")
+(defstruct "2.0")
+(intarweb "2.0.1")
+(manual-labor "0.2")
+(base64 "1.0")
+(matchable "1.1")
+(json "1.6")
+(srfi-69 "0.4.1")
+(regex "2.0")
+(colorize "0.4.5")
+(salmonella-html-report "1.7.0")
+(chicken-doc-html "0.3.1")
+(uri-common "2.0")
+(salmonella "3.0.1")
+(srfi-18 "0.1.6")
+(sxml-transforms "1.4.3")
+(input-parse "1.2")
+(svnwiki-sxml "0.2.13")
+(html-parser "0.2")
+(medea "4")
+(spiffy "6.3")
+(lazy-seq "2")
+(simple-sha1 "1.2")
+(salmonella-diff "1.1.0")
+(jsmin "2.2")
+(sendfile "1.8.3")
+(spiffy-cookies "1.2")
+(comparse "3")
+(spiffy-request-vars "0.19")
+(packrat "1.5")
+(awful "1.0.2")
+(srfi-1 "0.5.1")
+(server-test "0.6")

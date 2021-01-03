@@ -21,7 +21,7 @@ CHICKEN eggs and contains huge data files.
 1. Install eggs
 
 ```
-$ chicken-install $(cat REQUIRED-EGGS.TXT)
+$ chicken-install -from-list REQUIRED-EGGS.TXT
 ```
 
 Note that versions of eggs are pinned, as those are the versions known
@@ -30,7 +30,7 @@ versions you have already installed) at your on risk.  To install the
 most recent versions of the required eggs, you can run:
 
 ```
-chicken-install $(cat REQUIRED-EGGS.TXT | cut -d: -f1)
+chicken-install $(cat REQUIRED-EGGS.TXT | sed -r 's/\(([^ ]+).*/\1/')
 ```
 
 2. Install the required tools
