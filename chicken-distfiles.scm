@@ -8,5 +8,5 @@
 
 (fake-time
  (system*
-  (sprintf "PATH=~a-:$PATH make -C data/chicken-core distfiles"
+  (sprintf "PATH=~a:$PATH make -C data/chicken-core distfiles"
            (prefix))))
