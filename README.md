@@ -26,7 +26,7 @@ $ chicken-install -from-list REQUIRED-EGGS.TXT
 
 Note that versions of eggs are pinned, as those are the versions known
 to work.  You can try to use the most recent version of eggs (or the
-versions you have already installed) at your on risk.  To install the
+versions you have already installed) at your own risk.  To install the
 most recent versions of the required eggs, you can run:
 
 ```
